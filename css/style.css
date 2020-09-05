@@ -1,0 +1,439 @@
+/*
+Theme name: Futbolsport Blog
+Author: BMS Media dla INC Internet
+Author URI: http://bmsmedia.com.pl/
+Description: Made specially for futbolsport.pl
+Version: 1.0
+*/
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+html, body {
+    height:100%;
+}
+body {
+    background-color: #1e1e1e !important;
+}
+::selection {
+    
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin 0 !important;
+}
+
+#header,
+#content {
+    background-color: white;
+}
+
+#content {
+    padding: 15px;
+}
+
+.head-wrapper {
+    padding: 40px 60px;
+}
+
+ul.up-line {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+
+#header .row {
+    position: relative;
+}
+
+.up-line .user a:before {
+    width: 17px;
+    height: 20px;
+    background-image: url(http://dev.local/futbolsport.pl/wp-content/themes/futbolsport-blog/images/icon-user.png);
+    position: absolute;
+    margin-top: -1px;
+    margin-left: -30px;
+    content: "";
+    cursor: default;
+}
+
+.up-line li a {
+    color: #676b6b;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    background-color: black;
+    color: white;
+}
+
+.main-nav .navbar .menu ul.menu > li {
+    padding: 30px 30px 30px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: left;
+}
+
+.main-nav .navbar li a {
+    color: white;
+}
+
+.main-nav .navbar {
+    margin: 0 !important;
+    border: none !important;
+}
+
+.main-nav ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.main-nav .navbar .menu ul.menu > li:hover {
+    background-color: white;
+}
+
+.main-nav .navbar li:hover > a {
+    color: black;
+	font-weight: bold;
+}
+
+.logo {
+    width: 288px;
+}
+
+.head-wrapper .search-form {
+    width: 42%;
+    margin-left: 90px;
+}
+
+.head-wrapper > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-form input#search {
+    width: 80%;
+    padding: 2px 15px 0 15px;
+    font-size: 14px;
+    box-shadow: 0 2px 0 0 rgba(247,247,247,1);
+    height: 37px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -3px;
+}
+
+.search-form input#search-btn {
+    background-color: #da251d;
+    padding: 6px 6px 10px 6px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    position: relative;
+}
+
+.main-nav .sub-menu {
+    display: none;
+}
+
+.main-nav ul li:hover > .sub-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px !important;
+    z-index: 4;
+    padding: 50px !important;
+    background-color: whitesmoke;
+    color: black;
+    left: 0;
+}
+
+.main-nav .navbar .menu ul.sub-menu > li {
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.main-nav .navbar .menu ul.sub-menu > li:hover {
+    background: none;
+}
+
+.main-nav ul li:hover > .sub-menu li a {
+    color: #000;
+    font-weight: 600;
+}
+
+footer {
+    padding: 40px 60px !important;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+}
+
+footer .first-line div{
+	float: right;
+	margin-left: 100px;
+}
+
+footer .first-line div.logo{
+	float: left;
+	margin-left: 0px;
+	width: 250px;
+}
+
+footer .first-line ul{
+	float: left;
+}
+
+footer .first-line .menu ul li{
+	padding-bottom: 12px;
+}
+
+footer .first-line ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer .first-line .social{
+	color: #505050;
+}
+
+footer .first-line .social ul{
+	margin-left: -40px;
+	margin-top: 10px;
+}
+
+footer .first-line .social ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+footer .first-line .social ul li a:hover img{
+	-webkit-filter: brightness(70%);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .3s ease;
+}
+
+footer .sec-line{
+	margin-top: 30px;
+}
+
+footer .sec-line ul{
+	margin-left: -40px;
+}
+
+footer .sec-line ul li{
+	float: left;
+	margin-left: 90px;
+}
+
+footer .sec-line ul li:first-child{
+	margin-left: 0px;
+}
+
+footer .sec-line ul li header{
+	color: #505050;
+}
+footer .sec-line ul li p.with-ico{
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer .sec-line ul li p.with-ico:before{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin-top: -13px;
+	margin-left: -50px;
+	content: "";
+}
+
+footer .sec-line ul li p.with-ico.delivery:before{
+	background: url(http://dev.local/futbolsport.pl/wp-content/themes/futbolsport-blog/images/icon-delivery.png);
+}
+
+footer .sec-line ul li p.with-ico.phone:before{
+	background: url(http://dev.local/futbolsport.pl/wp-content/themes/futbolsport-blog/images/icon-phone.png);
+}
+
+footer .sec-line ul li p.with-ico.email:before{
+	background: url(http://dev.local/futbolsport.pl/wp-content/themes/futbolsport-blog/images/icon-mail.png);
+}
+
+footer .third-line{
+	padding-top: 30px;
+	margin-top: 20px;
+	border-top: 1px solid #1e1e1e;
+}
+
+footer .third-line ul{
+	margin-left: -40px;
+	float: left;
+}
+
+footer .third-line ul:first-child li{
+	float: left;
+	margin-right: 30px;
+}
+
+footer .third-line ul:first-child li a, 
+footer .third-line ul:last-child li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer .third-line ul:last-child{
+	float: right;
+	text-align: right;
+}
+
+footer .third-line ul:last-child li{
+	color: #505050;
+	margin-top: 10px;
+}
+
+footer .third-line ul:last-child li:first-child{
+	margin-top: 0px;
+}
+
+footer .first-line {}
+
+.clr:after{
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+
+footer aside p {
+    margin: 14px 0 0 0 !important;
+}
+
+span.orange,
+sup.orange, 
+a.orange, 
+p.orange,
+.orange {
+	color: #da251d;
+	text-decoration: none;
+}
+
+
+
+@media (max-width: 767px){
+    
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+   
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    
+}
+
+#cookiesLaw {
+    z-index: 9;
+    transition: all 0.5s;
+}
+
+.infoBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    color: #fff;
+    z-index: 99;
+    transition: all 0.5s ease-in;
+}
+
+.description p, .Button { 
+    text-align: center;
+}
+
+.LinkToCookies {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 7px;
+    color: #abc;
+    cursor: pointer;
+} 
+
+#content .thumbnail {
+    border: none !important;
+}
+
+#content .row {
+    padding: 15px !important;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
